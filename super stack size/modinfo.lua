@@ -5,21 +5,19 @@ end
 name = EN and "Super Stack Size" or "超级堆叠上限";
 description = EN and [[Customize the stack size of items. Make more items and creatures stackable.]] or [[自定义物品的堆叠上限。让更多的物品和生物可堆叠。]];
 author = "Neil";
-version = "1.0";
+version = "1.1";
 api_version = 10;
 dont_starve_compatible = true;
 reign_of_giants_compatible = true;
 dst_compatible = true;
 forumthread = "";
-all_clients_require_mod = false;
+all_clients_require_mod = true;
 clients_only_mod = false;
 server_filter_tags = {
 	"utility",
-	"server_only_mod",
 	"tweak",
 	"other"
 };
-
 
 configuration_options = {
 	{
@@ -121,3 +119,8 @@ configuration_options = {
 };
 icon = "modicon.tex";
 icon_atlas = "modicon.xml";
+
+--[[
+update 1.1
+- Changed to all all_clients_require_mod
+]]
