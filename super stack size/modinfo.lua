@@ -5,7 +5,7 @@ end
 name = EN and "Super Stack Size" or "超级堆叠上限";
 description = EN and [[Customize the stack size of items. Make more items and creatures stackable.]] or [[自定义物品的堆叠上限。让更多的物品和生物可堆叠。]];
 author = "Neil";
-version = "1.1";
+version = "1.2";
 api_version = 10;
 dont_starve_compatible = true;
 reign_of_giants_compatible = true;
