@@ -33,6 +33,11 @@ GLOBAL.TUNING.STACK_SIZE_LARGEITEM = max_stackable_size
 GLOBAL.TUNING.STACK_SIZE_MEDITEM = max_stackable_size
 GLOBAL.TUNING.STACK_SIZE_SMALLITEM = max_stackable_size
 
+-- wortox soul stack
+GLOBAL.TUNING.WORTOX_MAX_SOULS = max_stackable_size
+GLOBAL.TUNING.NABBAG_DAMAGE_MAX = max_stackable_size/20 * 
+BASE_SURVIVOR_ATTACK
+
 local function TryAddStackableCreature(prefab_name)
     AddPrefabPostInit(prefab_name, function(inst)
         if (inst.components.stackable == nil) then
